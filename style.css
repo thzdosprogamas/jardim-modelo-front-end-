@@ -1,0 +1,125 @@
+/* ===== ESTILO GERAL ===== */
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* ===== CABEÇALHO ===== */
+header {
+    padding: 25px 10px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3b1769; /* Azul principal */
+}
+
+/* ===== MENU ===== */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    margin: 0 14px;
+    transition: all 0.3s ease;
+    padding: 5px 8px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #3b1769; /* Azul ao passar o mouse */
+}
+
+/* ===== CONTEÚDO ===== */
+main {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 25px;
+    border-left: 4px solid #22043f; /* Linha azul elegante ao lado do texto */
+    background-color: #f9f9ff;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #3b1769;
+}
+
+section p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+    text-align: center;
+    background-color: #f2f6ff;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+    color: #444;
+    border-top: 2px solid #004aad;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== LINKS DO RODAPÉ ===== */
+footer a {
+    color: #3b1769;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ===== TRANSIÇÃO SUAVE AO ROLAR ===== */
+html {
+    scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth; /* rolagem suave */
+}
+
+section {
+  scroll-margin-top: 100px; /* ajusta a distância entre o topo e o início da seção */
+}
+footer p {
+  font-weight: bold;
+  color: #2e0854; /* roxo escuro elegante */
+  margin: 0;
+}
+footer p {
+  font-weight: bold;
+  color: #2e0854; /* roxo escuro elegante */
+  margin: 0;
+}
