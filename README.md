@@ -10,6 +10,6 @@ Estrutura responsiva simples
 Objetivo:
 Aprimorar habilidades em desenvolvimento web, design limpo e boas práticas de organização de código.
 
-📧 Contato: matheuswolf090@gmail.com
+📧 Contato: matheuswolfdev@gmail.com
 
 💻 Desenvolvido por M.W (Matheus Wolf)
